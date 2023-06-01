@@ -28,8 +28,8 @@ const Testimonials = () => {
       {/* TESTIMONIALS */}
       <div className="md:flex md:justify-between gap-8">
         <motion.div
-          className="mx-auto relative bg-blue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person1"
+          className="mx-auto relative bg-blue max-w-[400px] h-[350px] flex flex-col justify-end p-11 mt-48
+            before:absolute before:top-[-140px] before:-ml-[110px] before:left-1/2 before:max-w-[50px] before:content-person1"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -40,14 +40,14 @@ const Testimonials = () => {
           }}
         >
           <p className="font-playfair text-6xl">“</p>
-          <p className="text-center text-xl">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea.
+          <p className="text-center text-lg">
+              I can say that he is a dedicated student and committed to his professional development. In addition, Henrique is always looking to learn new things and improve his skills, demonstrating great enthusiasm for his work.
           </p>
         </motion.div>
 
         <motion.div
-          className="mx-auto relative bg-red max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person2"
+          className="mx-auto relative bg-red max-w-[400px] h-[350px] flex flex-col justify-end p-12 mt-48
+            before:absolute before:top-[-140px] before:-ml-[95px] before:left-1/2 before:content-person2"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -58,15 +58,14 @@ const Testimonials = () => {
           }}
         >
           <p className="font-playfair text-6xl">“</p>
-          <p className="text-center text-xl">
-            Aliquam aliquet integer ut fames odio in at. At magna ornare dictum
-            lectus.
+          <p className="text-center text-lg">
+            Very good professional, studious and fast learner, has a lot of knowledge in the area and does everything with excellence.
           </p>
         </motion.div>
 
         <motion.div
-          className="mx-auto relative bg-yellow max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person3"
+          className="mx-auto relative bg-yellow max-w-[400px] h-[350px] flex flex-col justify-end p-12 mt-48
+            before:absolute before:top-[-140px] before:-ml-[95px] before:left-1/2 before:content-person3"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -77,8 +76,8 @@ const Testimonials = () => {
           }}
         >
           <p className="font-playfair text-6xl">“</p>
-          <p className="text-center text-xl">
-            Fames odio in at. At magna ornare dictum lectus.
+          <p className="text-center text-lg">
+            Very good professional, studious and fast learner, has a lot of knowledge in the area and does everything with excellence.
           </p>
         </motion.div>
       </div>
