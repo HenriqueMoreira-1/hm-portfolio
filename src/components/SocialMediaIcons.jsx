@@ -1,37 +1,17 @@
+
+import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
+
 const SocialMediaIcons = () => {
   return (
     <div className="flex justify-center md:justify-start my-10 gap-7">
-      <a
-        className="hover:opacity-50 transition duration-500"
-        href="https://www.linkedin.com"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img alt="linkedin-link" src="../assets/linkedin.png" />
+      <a className="hover:opacity-50 transition duration-500" href="https://www.linkedin.com/in/henrique-moreira-310106231/" target="_blank" rel="noreferrer">
+        <BsLinkedin width={30} height={30}/>
       </a>
-      <a
-        className="hover:opacity-50 transition duration-500"
-        href="https://www.twitter.com"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img alt="twitter-link" src="../assets/twitter.png" />
+      <a className="hover:opacity-50 transition duration-500" href="https://github.com/HenriqueMoreira-1" target="_blank" rel="noreferrer">
+        <BsGithub width={30} height={30} />
       </a>
-      <a
-        className="hover:opacity-50 transition duration-500"
-        href="https://www.facebook.com"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img alt="facebook-link" src="../assets/facebook.png" />
-      </a>
-      <a
-        className="hover:opacity-50 transition duration-500"
-        href="https://www.instagram.com"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img alt="instagram-link" src="../assets/instagram.png" />
+      <a className="hover:opacity-50 transition duration-500" href="https://www.instagram.com/ohenriquemoreira/" target="_blank" rel="noreferrer">
+        <BsInstagram width={30} height={30}/>
       </a>
     </div>
   );
