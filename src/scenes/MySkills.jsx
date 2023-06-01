@@ -24,8 +24,7 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-            fames odio in at.
+            As a fullstack software enginner, I have been working with companies, developing web sites with thousands of users within a squad of 15+ developers.
           </p>
         </motion.div>
 
@@ -71,9 +70,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
-            morbi porttitor scelerisque fermentum, sagittis non egestas. Amet
-            odio sit sagittis,
+            I led several squads, trained less experienced developers and implemented several architectures in microservices. In addition to my professional experience, I've created side-project apps that reached over thousands users.
           </p>
         </motion.div>
 
@@ -99,10 +96,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Urna, eget pulvinar dolor cursus volutpat dictum odio. Nec ultricies
-            amet in in neque nibh tortor. Libero sed pretium justo nulla blandit
-            nulla amet habitant iaculis. Iaculis in congue vitae sollicitudin
-            faucibus a
+            I have experience with the ux/ui team and I am always looking for a way to innovate the interfaces I create in order to improve the user experience.
           </p>
         </motion.div>
         {/* IMAGINATIVE */}
@@ -127,10 +121,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Accumsan eu fringilla nisi, eget. Vitae, eget ut id proin arcu in
-            curabitur. Lectus libero, egestas enim aliquam quis felis amet.
-            Sagittis, amet netus fringilla netus lobortis odio sed platea.
-            Bibendum.
+            I always carried a motto with me: "Do something different and your results will be different". I've had several opportunities to innovate within the projects I've been through and I've never regretted seeking newness and improvement for customers.
           </p>
         </motion.div>
       </div>
